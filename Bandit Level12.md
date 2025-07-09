@@ -126,3 +126,6 @@ FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
 ```
 
 ## 📚 Tổng Kết
+  - file có thể được nén lồng nhau nhiều lớp.
+  - luôn dùng `file` để kiểm tra định dạng thật.
+  - một số lệnh như `gunzip`, `bunzip2` cần file mở rộng đúng (`.gz`, `.bz2`) 
