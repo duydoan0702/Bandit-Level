@@ -51,9 +51,77 @@ mv newdata.txt newdata.tar.gz
 -> ta chuyển về đúng định dang bằng câu lệnh `mv newdata.txt newdata.tar.gz`
 -> dùng `gunzip` để giải nén
 
-## 🏁 Password
+4. Giải nén Bzip2
+
+```
+file newdata.tar
+mv newdata.tar newdata.bz2
+bunzip2 newdata.bz2
+
+```
+-> tương tự bước 3 ta kiểm định dạng file và giải nén thêm 1 lần nữa
+
+5. Giải nén `Gzip` lần nữa.
+   
+```
+file newdata
+mv newdata newdata.tar.gz
+gunzip newdata.tar.gz
+
+```
+6. Giải nén file `tar`
+```
+file newdata.tar
+tar -xf mewdata.tar
 ```
 
+7. Lại giải nén file `tar`
+   
+```
+file data5.bin
+tar -xf data5.bin
+```
+
+8. Giải nén bzip2
+
+```
+file data6.bin
+mv data6.bin data6.bz2
+bunzip2 data6.bz2
+
+```
+
+9.Giải nén `tar`
+
+```
+file data6
+tar -xf data6
+
+```
+
+10. Giải nén Gzip
+
+```
+file data8.bin
+mv data8.bin data8.tar.gz
+gunzip data8.tar.gz
+
+```
+
+11. Lấy password
+
+```
+file data.tar
+
+cat data8.tar
+
+```
+---
+
+## 🏁 Password
+
+```
+FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
 ```
 
 ## 📚 Tổng Kết
