@@ -70,6 +70,7 @@ gunzip newdata.tar.gz
 
 ```
 6. Giải nén file `tar`
+   
 ```
 file newdata.tar
 tar -xf mewdata.tar
@@ -91,7 +92,7 @@ bunzip2 data6.bz2
 
 ```
 
-9.Giải nén `tar`
+9. Giải nén `tar`
 
 ```
 file data6
