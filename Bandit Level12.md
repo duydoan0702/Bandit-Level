@@ -30,6 +30,7 @@ cp ~/data.txt .
   ->   câu lệnh `cd` để chuyển tới thư mục `banditlevel12`
 
   ->   câu lệnh `cp` để sao chép dữ liệu từ file `data.txt` trong thư mục chính (`~`) sang thư mục hiện tại (`.`)
+  
 2. chuyển hex dump về file nhị phân
 
 ```
