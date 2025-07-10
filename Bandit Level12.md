@@ -49,7 +49,9 @@ mv newdata.txt newdata.tar.gz
 ![image](https://github.com/user-attachments/assets/279f459b-488d-4889-b1d7-892ae019cd6e)
 
 -> câu lệnh `file` để kiểm tra kiểu file, ta thấy `gzip compressed data` nghĩa là file đang ở định dạng giải nén `gzip` 
+
 -> ta chuyển về đúng định dang bằng câu lệnh `mv newdata.txt newdata.tar.gz`
+
 -> dùng `gunzip` để giải nén
 
 4. Giải nén Bzip2
