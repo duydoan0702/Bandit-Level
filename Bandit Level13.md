@@ -21,14 +21,30 @@ Mật khẩu cho cấp độ tiếp theo được lưu trữ trong /etc/bandit_p
 
 ## 🛠️ Cách giải
 
-1. 
+1.  kết nối tới bandit14 bằng `sshkey` 
+   
+```
+ssh -i sshkey.private bandit14@bandit.labs.overthewire.org -p 2220
+```
+| Pulic/Private Key | Cặp khóa này dùng để xác thực: **Public key trên server, Private key trên client**|
+|:---------------:|:-------------------------------------------------------------------------:|
+
+-> `-i` : sử dụng file private để xác thực
+
+2. truy cập vào đường dẫn sau `/etc/bandit_pass` để lấy password
+
+```
+cat bandit14
+
+```
+
+
 ---
 
 ## 🏁 Password
 
 ```
-FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
+MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
+
 ```
 
-## 📚 Tổng Kết
-  - 
