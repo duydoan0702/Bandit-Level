@@ -46,4 +46,4 @@ MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
 
 ## 📚 Tổng Kết
 
-  - Muốn 1 client kết nối tới server cần **IPAddress* và **Port**
+  - Muốn 1 client kết nối tới server cần **IPAddress** và **Port**
