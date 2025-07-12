@@ -13,6 +13,9 @@ Mật khẩu của level tiếp theo có được lấy lại bằng cách gửi
 **1. Internet hoạt động như thế nào ?**
 - Internet hoạt động như một sợi dây kết nối các máy tính, các máy chủ sẽ kết nối trực tiếp tới **Internet** . Các client kết nối thông qua **ISP ( Internet Service Provider)** .Thông tin trên Internet được chia thành các gói nhỏ **(packet)** được định tuyến truyên Internet bằng địa chỉ **IP** để đảm bảo đến đúng đích.
   
+  <img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/92a04303-93a0-468d-a7be-9f1e5f4a5f09" />
+
+  
 
 ## 🧠 Chiến lược giải
 - 
