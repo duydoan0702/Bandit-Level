@@ -15,6 +15,16 @@ Mật khẩu của level tiếp theo có được lấy lại bằng cách gửi
   
   <img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/92a04303-93a0-468d-a7be-9f1e5f4a5f09" />
 
+**2. IP Address**
+- là một địa chỉ duy nhất để định danh một máy trên Internet. Có 2 loại IP: **Static IP** dùng cho server không thay đổi thường xuyên, **Dynamic IP** dùng cho client được cấp bới **ISP** cho mỗi lần kết nối và có thể thay đổi.
+
+**3. Localhost**
+- Là tên đặc biệt đại diện có máy tính cá nhân. Thường dùng để test( web, aap, dịch vụ mạng,...) trên chính máy đó mà không cần Internet.
+- Địa chỉ IP tiêu chuẩn của localhost là `127.0.0.1`
+
+**4. Port**
+- Là một số hiệu dùng để phân biệt các dịch vụ khác nhau trên cùng một địa chỉ IP.
+- Mỗi port trên server sử dụng một dịch vụ riêng để giao tiếp với client.
   
 
 ## 🧠 Chiến lược giải
