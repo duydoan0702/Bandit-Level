@@ -18,20 +18,32 @@ Mật khẩu của level tiếp theo có được lấy lại bằng cách gửi
   
 
 ## 🧠 Chiến lược giải
-- 
+- tìm câu lệnh để nối tới server và gửi mật khẩu cũ cho server để lấy mật khẩu mới.
 
 ---
 
 ## 🛠️ Cách giải
 
-1. 
+1. Kết nối với server thông qua **telnet**
+```
+telnet localhost 30000
+```
+-> telnet chỉ nhận đối số `host` và `port`
+
+ 2. nhập mật khẩu để gửi cho server
+
+```
+MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
+```
 ---
 
 ## 🏁 Password
 
 ```
+8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
 
 ```
 
 ## 📚 Tổng Kết
-  - 
+
+  - Muốn 1 client kết nối tới server cần **IPAddress* và **Port**
