@@ -22,7 +22,7 @@ Mật khẩu cho level tiếp theo được lấy lại bằng cách gửi mật
 ```
 nmap 192.168.1.1
 ```
-📌 2. Quét một dải cổng:
+📌 2. Quét một dải cổng đang hoạt động:
 
 ```
 nmap -p 31000-32000 localhost
@@ -51,11 +51,12 @@ nmap -p- localhost
 1. Sử dụng công cụ `Nmap` để kiểm tra các `port` đang hoạt động
 
 ```
-nmap 
+nmap -A -p 31000-32000 localhost
 
 ```
+- `-A` : Bất chệ độ quét nâng cao( phát hiện hệ điều hành, dịch vụ, sript scanning, traceroute)
 
-2. Gửi mật khẩu của level hiện tại để lấy mật khẩu level tiếp theo
+2. 
 ---
 
 ## 🏁 Password
