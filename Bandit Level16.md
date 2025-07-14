@@ -16,8 +16,12 @@ Mật khẩu cho level tiếp theo được lấy lại bằng cách gửi mật
 **1. Port**
 - Là số hiệu đặc biệt để phân biệt các dịch vụ khác nhau trên cùng địa chỉ IP.
 - Phân biệt các dịch vụ trên server để giao tiếp với client.
+
+## 🔧 Công cụ
+**1. Nmap**
+- Dùng để quét mạng, kiểm tra cổng(port), dịch vụ và hệ điều hành mục tiêu.
+- Xác định lỗ hổng bảo mật, kiểm tra tường lửa, giám sát mạng.
 - Câu lệnh:
-- 
 📌 1. Quét 1 địa chỉ IP với cổng mặc định:
 ```
 nmap 192.168.1.1
@@ -27,15 +31,22 @@ nmap 192.168.1.1
 ```
 nmap -p 31000-32000 localhost
 ```
-📌 4. 
+📌 3. Quét tất cả **65535** cổng
 
+```
+nmap -p- localhost
+```
+📌 4. Hiển thị tên dịch vụ đang chạy
 
+```
+nmap -sV localhost
+```
+📌 5. Kiểm tra hệ điều hành đang chạy
 
-## 🔧 Công cụ
-**1. Nmap**
-- Dùng để quét mạng, kiểm tra cổng(port), dịch vụ và hệ điều hành mục tiêu.
-- Xác định lỗ hổng bảo mật, kiểm tra tường lửa, giám sát mạng.
+ ```
+sudo nmap -O localhost
 
+````
 ## 🧠 Chiến lược giải
 - 
 
@@ -53,7 +64,7 @@ nmap -p 31000-32000 localhost
 2. Kiểm tra các dịch vụ **SSL/TLS** trên các cổng để gửi current password.
   
 ```
-nmap -sV -p- 31000-32000 localhost
+nmap -sV -p 31000-32000 localhost
 ```
 ---
 
