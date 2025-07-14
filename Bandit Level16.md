@@ -27,8 +27,7 @@ nmap 192.168.1.1
 ```
 nmap -p 31000-32000 localhost
 ```
-📌 3. Quét tất cả 65535 cổng:
-
+📌 3. Kiểm tra các dịch vụ **SSL/TLS** trên 
 ```
 nmap -p- localhost
 ```
