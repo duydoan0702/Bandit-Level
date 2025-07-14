@@ -22,7 +22,9 @@ Mật khẩu cho level tiếp theo được lấy lại bằng cách gửi mật
 - Dùng để quét mạng, kiểm tra cổng(port), dịch vụ và hệ điều hành mục tiêu.
 - Xác định lỗ hổng bảo mật, kiểm tra tường lửa, giám sát mạng.
 - Câu lệnh:
+
 📌 1. Quét 1 địa chỉ IP với cổng mặc định:
+
 ```
 nmap 192.168.1.1
 ```
