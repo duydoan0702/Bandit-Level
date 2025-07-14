@@ -17,7 +17,7 @@ Mật khẩu cho level tiếp theo được lấy lại bằng cách gửi mật
 - Là số hiệu đặc biệt để phân biệt các dịch vụ khác nhau trên cùng địa chỉ IP.
 - Phân biệt các dịch vụ trên server để giao tiếp với client.
 
-## Công cụ
+## 🔧Công cụ
 
 ## 🧠 Chiến lược giải
 - tìm hiểu công cụ **OpenSSL** để kết nối tới server và gửi mật khẩu của level hiện tại.
