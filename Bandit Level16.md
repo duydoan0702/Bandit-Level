@@ -27,10 +27,6 @@ nmap 192.168.1.1
 ```
 nmap -p 31000-32000 localhost
 ```
-📌 3. Kiểm tra các dịch vụ **SSL/TLS** trên 
-```
-nmap -p- localhost
-```
 📌 4. 
 
 
@@ -50,12 +46,15 @@ nmap -p- localhost
 1. Sử dụng công cụ `Nmap` để kiểm tra các `port` đang hoạt động
 
 ```
-nmap -A -p 31000-32000 localhost
+nmap -p 31000-32000 localhost
 
 ```
-- `-A` : Bất chệ độ quét nâng cao( phát hiện hệ điều hành, dịch vụ, sript scanning, traceroute)
 
-2. 
+2. Kiểm tra các dịch vụ **SSL/TLS** trên các cổng để gửi current password.
+  
+```
+nmap -sV -p- 31000-32000 localhost
+```
 ---
 
 ## 🏁 Password
