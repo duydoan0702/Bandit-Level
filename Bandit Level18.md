@@ -19,7 +19,7 @@ Mật khẩu cho cấp độ tiếp theo được lưu trong tệp readme trong 
 1. Dùng `ssh` đề thực hiện đăng nhập trực tiếp và chạy file `readme`
 
 ```
-ssh abndit18@bandit.labs.overthewire.org -p 2220 "cat /home/bandit18/readme"
+ssh bandit18@bandit.labs.overthewire.org -p 2220 "cat /home/bandit18/readme"
 ```
 - sau ghi chạy lệnh sau sẽ nhận được passowrd
 
@@ -32,5 +32,6 @@ ssh abndit18@bandit.labs.overthewire.org -p 2220 "cat /home/bandit18/readme"
 cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
 ```
 
-## Tổng kết
--
+## 🏁 Tổng kết
+- `.bashrc` là file cấu hình cá nhân của **shell bash**, được thực thi mỗi lần mở một shell tương tác mới như vào `SSH`
+- file `.bashrc` nằm trong thư mục **home** của người dùng.
