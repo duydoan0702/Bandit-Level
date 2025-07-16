@@ -21,7 +21,7 @@ Mật khẩu cho cấp độ tiếp theo được lưu trong tệp readme trong 
 ```
 ssh abndit18@bandit.labs.overthewire.org -p 2220 "cat /home/bandit18/readme"
 ```
-
+- sau ghi chạy lệnh sau sẽ nhận được passowrd
 
 
 ---
@@ -29,5 +29,8 @@ ssh abndit18@bandit.labs.overthewire.org -p 2220 "cat /home/bandit18/readme"
 ## 🏁 Password
 
 ```
-
+cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
 ```
+
+## Tổng kết
+-
