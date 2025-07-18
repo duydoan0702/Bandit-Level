@@ -13,7 +13,7 @@
 ## 🧠 Chiến lược giải
 - Tìm hiểu về **setuid**
 
-## Công cụ
+## 🔧 Công cụ
 1. **setuid (Set User ID)**
 - là một permision bit đặc biệt trong hệ thống **Unix/Linux**. Khi được bật trên một tệp thực thi (executable file), nó cho phép người dùng chạy với quyền sở hữu file thay vì người đang thực thi nó.
 - **Mục đích**: cho phép người dùng chạy với quyền hạn cao hơn thường là `root`.
