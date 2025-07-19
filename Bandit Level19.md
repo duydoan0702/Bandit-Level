@@ -50,6 +50,3 @@ ls -la
 ```
 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
 ```
-
-- `.bashrc` là file cấu hình cá nhân của **shell bash**, được thực thi mỗi lần mở một shell tương tác mới như vào `SSH`
-- file `.bashrc` nằm trong thư mục **home** của người dùng.
