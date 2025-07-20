@@ -31,6 +31,7 @@ cat cronjob_bandit22
 -> kiểm tra nội dung file
 
 <img width="651" height="147" alt="image" src="https://github.com/user-attachments/assets/e0e6486c-f7ce-4999-94ee-abf8739350f5" />
+
 - `chmod644` điều này có nghĩa là bất kì ai cũng có thể đọc nội dung của file, điều này là lổ hổng bảo mật.
 
 2. Đọc nội dung file tạm và lấy password
