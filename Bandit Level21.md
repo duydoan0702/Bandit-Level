@@ -11,7 +11,7 @@ Một chương trình đang chạy tự động theo các khoảng thời gian �
 ---
 
 ## 🧠 Chiến lược giải
-- 
+- Tìm hiểu về `cron` 
 
 ## 🔧 Công cụ
 1. **Cron**
