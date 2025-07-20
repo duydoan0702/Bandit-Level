@@ -23,7 +23,18 @@ Một chương trình đang chạy tự động theo các khoảng thời gian �
 
 ## 🛠️ Cách giải
 
-1. 
+1. Theo gợi ý đề ta vào đường dẫn `etc/cron.d/` để kiểm tra các `cronjobs`
+
+```
+cat cronjob_bandit22
+```
+-> kiểm tra nội dung file
+
+2. Đọc nội dung file tạm và lấy password
+
+```
+cat /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+```
 
 
 ---
@@ -31,5 +42,5 @@ Một chương trình đang chạy tự động theo các khoảng thời gian �
 ## 🏁 Password
 
 ```
-EeoULMCra2q0dSkYj561DX7s1CpBuOBt
+tRae0UfB9v0UzbCdn9cY0gQnds9GF58Q
 ```
