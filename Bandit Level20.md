@@ -3,7 +3,7 @@
 
 ## 🧩 Challenge: Level 20
 
-### 📝 Description
+## 📝 Description
 Có một tệp nhị phân setuid trong thư mục home thực hiện chức năng sau: nó tạo kết nối đến localhost trên cổng bạn chỉ định làm đối số dòng lệnh. Sau đó, nó đọc một dòng văn bản từ kết nối và so sánh với mật khẩu ở cấp độ trước đó (bandit20). Nếu mật khẩu đúng, nó sẽ truyền mật khẩu cho cấp độ tiếp theo (bandit21).
 
 LƯU Ý: Hãy thử kết nối với daemon mạng của riêng bạn để xem nó có hoạt động như bạn nghĩ không.
@@ -15,6 +15,26 @@ LƯU Ý: Hãy thử kết nối với daemon mạng của riêng bạn để xem
 
 ## 🧠 Chiến lược giải
 - Mở một `port` với chế độ `listener` sau đó dùng tệp thực thi `./suconnect` để kết nối và đọc dữ liệu.
+
+## 🔧 Công cụ
+1. **Netcat (nc)**
+- Gửi/nhận dữ liệu qua giao thức TCP/UDP.
+- Thiết lập kết nối client-server.
+- Dùng như một chat tool, file transfer, port scanner, hoặc backdoor trong pentest.
+### Câu lệnh:
+1. Mở một cổng `TCP` để lắng nghe( giống server) :
+```
+nc -l <port>
+```
+2. Kết nối đến một địa chỉ IP và Port :
+```
+nc <host> <port>
+```
+3. Chuyển file với netcat
+
+```
+cat file.txt | nc -l 1234
+```
 
 ---
 
