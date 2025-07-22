@@ -41,7 +41,7 @@ cat /usr/bin/cronjob_bandit24.sh
 - sau khi đọc tệp shell ta nhận được đoạn mã ngôn ngữ `bash` như sau:
 <img width="560" height="288" alt="image" src="https://github.com/user-attachments/assets/a209b67b-1a6a-4d65-b23a-1c2aa2881c36" />
 
-
+2.
 
 
 ---
