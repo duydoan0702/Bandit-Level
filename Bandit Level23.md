@@ -16,7 +16,7 @@ LƯU Ý 2: Lưu ý rằng tập lệnh shell của bạn sẽ bị xóa sau khi 
 ---
 
 ## 🧠 Chiến lược giải
-
+- Tìm cách chẹn một đoạn script vào script chính và tạo 1 file để lưu mật khẩu khi chương trình thực thi.
 
 ## Cộng cụ
 
@@ -40,6 +40,7 @@ Sau đó:
 cat /usr/bin/cronjob_bandit24.sh
 ```
 - sau khi đọc tệp shell ta nhận được đoạn mã ngôn ngữ `bash` như sau:
+  
 <img width="560" height="288" alt="image" src="https://github.com/user-attachments/assets/a209b67b-1a6a-4d65-b23a-1c2aa2881c36" />
 
 2. Tạo thư mục phụ để lưu mật khẩu
@@ -51,8 +52,7 @@ Sau đó:
 ```
 nano sript.sh
 ```
-- Tạo thư mục để lưu sript như sau: `#! bin/bash 
-                                      cat /ect/dandit_pass/bandit24 > /tmp/savepass/password.txt  `
+- Tạo thư mục để lưu sript như sau: `cat /etc/dandit_pass/bandit24 > /tmp/savepass/password.txt  `
 
 3. Kiểm tra quyền thực thi của file `sh` mới tạo
 
@@ -70,12 +70,16 @@ chmod 777 script.sh
 4.Chuyển đoạn `script` vào đoạn script lớn
 
 ```
-cp script.sh /var/spool/bandit24/foo
+cp script.sh /var/spool/bandit24/foo/
 ```
+- đợi một lúc rồi dùng dòng lệnh sau để lấy password.
 
+```
+cat password.txt
+```
 
 ## 🏁 Password
 
 ```
-0Zf11ioIjMVN551jX3CmStKLYqjk54Ga
+gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8
 ```
