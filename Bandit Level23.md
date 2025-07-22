@@ -1,50 +1,37 @@
 
 # Bandit Level
 
-## 🧩 Challenge: Level 22
+## 🧩 Challenge: Level 23
 
 ## 📝 Description
 Một chương trình đang chạy tự động theo các khoảng thời gian đều đặn từ cron, trình lập lịch tác vụ theo thời gian. Hãy xem cấu hình trong /etc/cron.d/ và xem lệnh nào đang được thực thi.
 
-LƯU Ý: Việc xem các tập lệnh shell do người khác viết là một kỹ năng rất hữu ích. Tập lệnh ở cấp độ này được thiết kế để dễ đọc. Nếu bạn gặp khó khăn khi hiểu chức năng của nó, hãy thử chạy nó để xem thông tin gỡ lỗi được in ra.
+LƯU Ý: Cấp độ này yêu cầu bạn phải tạo tập lệnh shell đầu tiên của riêng mình. Đây là một bước rất lớn và bạn nên tự hào khi vượt qua cấp độ này!
+
+LƯU Ý 2: Lưu ý rằng tập lệnh shell của bạn sẽ bị xóa sau khi được thực thi, vì vậy bạn có thể muốn giữ một bản sao…
 
 
-> Link: https://overthewire.org/wargames/bandit/bandit23.html
+> Link: https://overthewire.org/wargames/bandit/bandit24.html
 
 ---
 
 ## 🧠 Chiến lược giải
-- Tìm hiểu các dòng lệnh shell để tìm được password level tiếp theo.
+- 
 ---
 
 
 ## 🛠️ Cách giải
-
-1. Theo mô tả ta vào đường dẫn `/etc/cron.d/` và kiểm tra
-
-```
-cat cronjob_bandit23
-```
--> Đọc file cronjob_bandit23
-
-2.Theo mô tả của file ta vừa kiểm tra ở trên, ta tiếp tục:
+1. Theo mô tả đề ta vào `/etc/cron.d/` để kiểm tra
 
 ```
-cat /usr/bin/cronjob_bandit23.sh
+cat cronjob_bandit24
 ```
+Sau đó:
+```
+cat /usr/bin/cronjob_bandit24.sh
+```
+- sau khi đọc tệp shell ta nhận được đoạn mã ngôn ngữ `bash` như sau:
 
-3.Tìm hiểu các dòng lệnh shell ở trên và thực hiện:
-
-```
-echo "I am user bandit23" | md5sum | cut -d ' ' -f 1
-```
--> sau đó ta nhận được chuỗi sau : `8ca319486bfbbc3663ea0fbe81326349`
-
-4.Ta thưc hiện lệnh sau để lấy password
-
-```
-cat /tmp/8ca319486bfbbc3663ea0fbe81326349
-```
 
 ---
 
