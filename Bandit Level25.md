@@ -35,7 +35,7 @@ for pin in $(seq -w 0000 9999); do
 done | nc localhost 30002
 ```
 
-- Vì kết nối chỉ kéo dài khoảng vài giấy nên mỗi lần quét ta tăng giá trị lên tầm `1000`
+- Vì kết nối chỉ kéo dài khoảng vài giây mà với `10000` mã pin tốn thời **vài phút** nên mỗi lần quét ta tăng giá trị lên tầm `1000` đến khi có được password.
 
 
 
