@@ -2,7 +2,7 @@
 
 # Bandit Level
 
-## 🧩 Challenge: Level 24
+## 🧩 Challenge: Level 25
 
 ## 📝 Description
 Một daemon đang lắng nghe trên cổng 30002 và sẽ cung cấp cho bạn mật khẩu của bandit25 nếu bạn cung cấp mật khẩu của bandit24 và một mã pin bí mật gồm 4 chữ số. Không có cách nào để lấy lại mã pin ngoại trừ việc thử tất cả 10000 tổ hợp, được gọi là tấn công vét cạn.
