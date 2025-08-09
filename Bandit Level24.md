@@ -2,7 +2,7 @@
 
 # Bandit Level
 
-## 🧩 Challenge: Level 23
+## 🧩 Challenge: Level 24
 
 ## 📝 Description
 Một chương trình đang chạy tự động theo các khoảng thời gian đều đặn từ cron, trình lập lịch tác vụ theo thời gian. Hãy xem cấu hình trong /etc/cron.d/ và xem lệnh nào đang được thực thi.
