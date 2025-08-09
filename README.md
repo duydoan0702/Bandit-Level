@@ -14,4 +14,4 @@
 
 ## 2.Shell
 - Là một chương trình khởi chạy ngay sau khi bạn đăng nhập, thường là `/bin/bash/`, `/bin/sh`, `zsh` cho phép bạn gõ lệnh tự do
-- Ở level 26 một chương trình tên `/usr/bin/showtext` làm shell mặc định, mỗi khi đăng nhập hệ thống sẽ **không mở dòng lệnh** mà chạy **showtext** ( `showtext` chỉ đơn giản là một script hiển thị một số nội dung mà tác giả muốn hạn chế người dùng truy cập shell thật rồi thoát )
+- Ở level 26 một chương trình tên `/usr/bin/showtext` làm shell mặc định, mỗi khi đăng nhập hệ thống sẽ **không mở dòng lệnh** mà chạy **showtext** ( `showtext` chỉ đơn giản là một script hiển thị một số nội dung mà tác giả muốn hạn chế người dùng truy cập shell thật rồi thoát)
